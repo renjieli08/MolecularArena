@@ -1,0 +1,15 @@
+# This repository intentionally tracks source and runnable notebook files only.
+*
+!*/
+!*.py
+!*.ipynb
+!*.sbatch
+!.gitignore
+!README.md
+!REPRODUCIBILITY.md
+
+# Ignore generated/editor artifacts inside re-included directories.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
